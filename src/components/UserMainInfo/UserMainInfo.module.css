@@ -1,0 +1,18 @@
+.container {
+  padding: 20px;
+}
+
+.img {
+  border-radius: 50%;
+  background-color: #111;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.tagAndLocation {
+  font-size: 24px;
+  color: rgba(17, 17, 17, 0.5);
+}
