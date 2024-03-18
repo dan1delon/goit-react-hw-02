@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.good:hover {
+  background-color: rgba(0, 128, 0, 0.466);
+  color: white;
+}
+
+.neutral:hover {
+  background-color: rgba(0, 0, 255, 0.473);
+  color: white;
+}
+
+.bad:hover {
+  background-color: rgba(255, 0, 0, 0.582);
+  color: white;
+}
+
+.reset:hover {
+  background-color: rgba(128, 128, 128, 0.527);
+  color: white;
+}
